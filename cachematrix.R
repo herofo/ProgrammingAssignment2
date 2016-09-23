@@ -7,7 +7,6 @@
 ## retrieves the inverse from cache.
 
 
-
 ## Define function that builds functions set(), get(), setinverse() and 
 ## getinverse() and returns these functions within a list to the parent
 ## environment. It also includes the data objects x (cached matrix) 
@@ -44,7 +43,6 @@ makeCacheMatrix <- function(x = matrix()) {
 	# return the set and get functions within a named list
 	list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
-
 
 
 ## Define function that retrieves the cached inverse of a matrix, if the
